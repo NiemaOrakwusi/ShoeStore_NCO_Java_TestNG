@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="brwType" value="firefox"/>
+  <parameter name="apURL" value="http://shoestore-manheim.rhcloud.com/"/>
+  <test name="Shoe Store(failed)">
+    <classes>
+      <class name="com.com.tests.ItemsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="End"/>
+          <include name="initSetup"/>
+          <include name="verPageItems"/>
+        </methods>
+      </class> <!-- com.com.tests.ItemsTest -->
+    </classes>
+  </test> <!-- Shoe Store(failed) -->
+</suite> <!-- Failed suite [Suite] -->

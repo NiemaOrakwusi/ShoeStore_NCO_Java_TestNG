@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27362" started-at="2017-05-18T13:44:56Z" finished-at="2017-05-18T13:45:23Z">
+    <groups>
+    </groups>
+    <test name="Shoe Store" duration-ms="27362" started-at="2017-05-18T13:44:56Z" finished-at="2017-05-18T13:45:23Z">
+      <class name="com.com.tests.ItemsTest">
+        <test-method status="PASS" signature="initSetup(java.lang.String, java.lang.String)[pri:0, instance:com.com.tests.ItemsTest@23ceabc1]" name="initSetup" is-config="true" duration-ms="12241" started-at="2017-05-18T08:44:56Z" finished-at="2017-05-18T08:45:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://shoestore-manheim.rhcloud.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.com.tests.ItemsTest@23ceabc1]" name="setUp" is-config="true" duration-ms="1" started-at="2017-05-18T08:45:08Z" finished-at="2017-05-18T08:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verDesp()[pri:0, instance:com.com.tests.ItemsTest@23ceabc1]" name="verDesp" duration-ms="264" started-at="2017-05-18T08:45:08Z" finished-at="2017-05-18T08:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verDesp -->
+        <test-method status="PASS" signature="verImages()[pri:0, instance:com.com.tests.ItemsTest@23ceabc1]" name="verImages" duration-ms="150" started-at="2017-05-18T08:45:09Z" finished-at="2017-05-18T08:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verImages -->
+        <test-method status="PASS" signature="verPageItems()[pri:0, instance:com.com.tests.ItemsTest@23ceabc1]" name="verPageItems" duration-ms="22" started-at="2017-05-18T08:45:09Z" finished-at="2017-05-18T08:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verPageItems -->
+        <test-method status="PASS" signature="verPrice()[pri:0, instance:com.com.tests.ItemsTest@23ceabc1]" name="verPrice" duration-ms="151" started-at="2017-05-18T08:45:09Z" finished-at="2017-05-18T08:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verPrice -->
+        <test-method status="PASS" signature="End()[pri:0, instance:com.com.tests.ItemsTest@23ceabc1]" name="End" is-config="true" duration-ms="38" started-at="2017-05-18T08:45:09Z" finished-at="2017-05-18T08:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- com.com.tests.ItemsTest -->
+      <class name="com.com.tests.EmailTest">
+        <test-method status="PASS" signature="initSetup(java.lang.String, java.lang.String)[pri:0, instance:com.com.tests.EmailTest@5d5eef3d]" name="initSetup" is-config="true" duration-ms="12559" started-at="2017-05-18T08:45:09Z" finished-at="2017-05-18T08:45:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://shoestore-manheim.rhcloud.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.com.tests.EmailTest@5d5eef3d]" name="setUp" is-config="true" duration-ms="1" started-at="2017-05-18T08:45:22Z" finished-at="2017-05-18T08:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VfyEmail()[pri:0, instance:com.com.tests.EmailTest@5d5eef3d]" name="VfyEmail" duration-ms="1762" started-at="2017-05-18T08:45:22Z" finished-at="2017-05-18T08:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VfyEmail -->
+        <test-method status="PASS" signature="verPageTitle()[pri:0, instance:com.com.tests.EmailTest@5d5eef3d]" name="verPageTitle" duration-ms="25" started-at="2017-05-18T08:45:23Z" finished-at="2017-05-18T08:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verPageTitle -->
+        <test-method status="PASS" signature="End()[pri:0, instance:com.com.tests.EmailTest@5d5eef3d]" name="End" is-config="true" duration-ms="36" started-at="2017-05-18T08:45:23Z" finished-at="2017-05-18T08:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- com.com.tests.EmailTest -->
+    </test> <!-- Shoe Store -->
+  </suite> <!-- Suite -->
+</testng-results>

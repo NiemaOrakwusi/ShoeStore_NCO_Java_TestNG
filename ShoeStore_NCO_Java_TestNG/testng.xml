@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="apURL" value="http://shoestore-manheim.rhcloud.com/"/>
+<parameter name="brwType" value="firefox"/>    
+  <test name="Shoe Store">
+      <classes>
+      <class name="com.com.tests.ItemsTest"/> 
+      <class name="com.com.tests.EmailTest"/>
+    </classes>
+  </test> <!-- Shoe Store -->
+</suite> <!-- Suite -->
